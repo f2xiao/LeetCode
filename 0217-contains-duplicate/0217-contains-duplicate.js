@@ -15,17 +15,31 @@
 //     // check the values in map all are 1
 //     return !Object.values(map).every(ele=>ele < 2)
 // };
-
 var containsDuplicate = function(nums) {
-    // sort the nums
-   nums.sort();
-
-   for(let i=0; i < nums.length ; i++){
-    //  compare the neighbour element
-    if(nums[i] == nums[i+1]){
-        return true
+    const map = {};
+    for(let i = 0; i < nums.length ; i++){
+        // check if map contains the key
+        if(map[nums[i]]){
+            return true;
+        }else{
+            map[nums[i]] = 1;
+        }
     }
-   }
-   
-   return false
+
+    // check the values in map all are 1
+    return false
 };
+
+// var containsDuplicate = function(nums) {
+//     // sort the nums
+//    nums.sort();
+
+//    for(let i=0; i < nums.length ; i++){
+//     //  compare the neighbour element
+//     if(nums[i] == nums[i+1]){
+//         return true
+//     }
+//    }
+   
+//    return false
+// };
