@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/f2xiao/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/f2xiao/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0435-non-overlapping-intervals](https://github.com/f2xiao/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [2058-concatenation-of-array](https://github.com/f2xiao/LeetCode/tree/master/2058-concatenation-of-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -69,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/f2xiao/LeetCode/tree/master/0238-product-of-array-except-self) |
+## Simulation
+|  |
+| ------- |
+| [2058-concatenation-of-array](https://github.com/f2xiao/LeetCode/tree/master/2058-concatenation-of-array) |
 <!---LeetCode Topics End-->
